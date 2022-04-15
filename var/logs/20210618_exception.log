@@ -1,0 +1,8 @@
+*ERROR* 	v1.7.7.3	2021/06/18 - 17:39:54: La longueur du champ LeoBlogBlog-&gt;meta_description est actuellement 304 caract&egrave;res. Il doit &ecirc;tre entre 0 et 255 caract&egrave;res. at line 1093 in file classes/ObjectModel.php
+*ERROR* 	v1.7.7.3	2021/06/18 - 17:44:15: La longueur du champ LeoBlogBlog-&gt;meta_description est actuellement 304 caract&egrave;res. Il doit &ecirc;tre entre 0 et 255 caract&egrave;res. at line 1093 in file classes/ObjectModel.php
+*ERROR* 	v1.7.7.3	2021/06/18 - 17:44:43: La longueur du champ LeoBlogBlog-&gt;meta_description est actuellement 304 caract&egrave;res. Il doit &ecirc;tre entre 0 et 255 caract&egrave;res. at line 1093 in file classes/ObjectModel.php
+*ERROR* 	v1.7.7.3	2021/06/18 - 17:45:34: La longueur du champ LeoBlogBlog-&gt;meta_description est actuellement 304 caract&egrave;res. Il doit &ecirc;tre entre 0 et 255 caract&egrave;res. at line 1093 in file classes/ObjectModel.php
+*ERROR* 	v1.7.7.3	2021/06/18 - 17:46:02: La longueur du champ LeoBlogBlog-&gt;meta_description est actuellement 304 caract&egrave;res. Il doit &ecirc;tre entre 0 et 255 caract&egrave;res. at line 1093 in file classes/ObjectModel.php
+*ERROR* 	v1.7.7.3	2021/06/18 - 17:46:42: La longueur du champ LeoBlogBlog-&gt;meta_description est actuellement 304 caract&egrave;res. Il doit &ecirc;tre entre 0 et 255 caract&egrave;res. at line 1093 in file classes/ObjectModel.php
+*ERROR* 	v1.7.7.3	2021/06/18 - 19:30:43: La propri&eacute;t&eacute; LeoSlideshowSlide-&gt;id_group est vide. at line 1045 in file classes/ObjectModel.php
+*ERROR* 	v1.7.7.3	2021/06/18 - 19:30:46: La propri&eacute;t&eacute; LeoSlideshowSlide-&gt;id_group est vide. at line 1045 in file classes/ObjectModel.php

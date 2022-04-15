@@ -1,0 +1,48 @@
+****templates change:
+
+***Js file
+assets\js\theme.js
+
+*** tpl file
+
+modules\ps_bestsellers\views\templates\hook\ps_bestsellers.tpl
+modules\ps_brandlist\views\templates\_partials\brand_form.tpl
+modules\ps_contactinfo\ps_contactinfo.tpl
+modules\ps_contactinfo\ps_contactinfo-rich.tpl
+modules\ps_crossselling\views\templates\hook\ps_crossselling.tpl
+modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl
+modules\ps_imageslider\views\templates\hook\ slider.tpl
+modules\ps_shoppingcart\modal.tpl
+Modules\ps_supplierlist\views\templates\_partials\supplier_form.tpl
+templates\_partials\breadcrumb.tpl
+templates\catalog\_partials\miniatures\pack-product.tpl
+Templates\catalog\_partials\miniatures\product.tpl
+Templates\catalog\_partials\facets.tpl
+templates\catalog\_partials\product-discounts.tpl
+templates\catalog\_partials\product-images-modal.tpl
+templates\catalog\_partials\product-cover-thumbnails.tpl
+templates\catalog\_partials\product-prices.tpl
+templates\catalog\_partials\product-variants.tpl
+templates\catalog\_partials\quickview.tpl
+Templates\catalog\_partials\sort-orders.tpl
+templates\catalog\_partials\variant-links.tpl
+templates\catalog\product.tpl
+templates\checkout\_partials\cart-detailed-product-line.tpl
+templates\checkout\_partials\cart-detailed-totals.tpl
+templates\checkout\_partials\cart-summary-subtotals.tpl
+templates\checkout\_partials\cart-voucher.tpl
+templates\checkout\_partials\order-confirmation-table.tpl
+templates\checkout\checkout.tpl
+templates\cms\stores.tpl
+templates\customer\_partials\address-form.tpl
+templates\customer\_partials\block-address.tpl
+templates\customer\_partials\order-detail-no-return.tpl
+templates\customer\_partials\order-detail-return.tpl
+templates\customer\order-return.tpl
+templates\contact.tpl
+
+
+*** Add new tpl file
+
+templates\catalog\_partials\productlist.tpl
+modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription-column.tpl

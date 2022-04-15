@@ -1,0 +1,13 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+新的警報消息已保存
+
+警告: 你在後台接收到一個新的 log 警示.
+
+您可以在後台的高級設置>日誌部分中查看它。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

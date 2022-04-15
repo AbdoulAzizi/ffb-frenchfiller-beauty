@@ -1,0 +1,27 @@
+{shop_url}
+
+您好 {firstname} {lastname},
+
+感谢在 {shop_name} 购物！
+
+Order ID {order_name} - 等待支票付款
+
+订单号为 {order_name} 的订单已经成功下单，我们将在收到付款后马上发货 。
+
+付款方式：支票
+
+你选择了以支票支付。 以下是您的支票所需的信息：
+
+金额  {total_paid}
+
+收款人：  {check_name}
+
+请邮寄支票到：  {check_address_html}
+
+Follow your order and download your invoice on our shop, go to the [历史及我的订单明细]({history_url}) section of your customer account.
+
+If you have a guest account, you can follow your order via the [客户跟踪]({guest_tracking_url}) section on our shop.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,21 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+您在 {shop_name} 的購物車
+
+感謝您的光臨。 您似乎尚未完成購買。
+
+您的購物籃已保存，您可以從我們的商店恢復訂單： {shop_url}
+
+我們很高興為您的下一個訂單提供  {amount}％ 的折扣。 此優惠有效期為 {days} 天，千萬不要錯過機會！
+
+您 {shop_name} 的優惠券代碼
+
+這是您的優惠券代碼： {voucher_num}
+
+在您的購物車中輸入驗證碼去領取您的折扣。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,167 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#search_widget {
+  width: auto;
+  padding: 14px 23px; }
+  @media (max-width: 1199px) {
+    #search_widget {
+      padding: 14px 15px; } }
+
+.top_wel {
+  position: relative;
+  padding: 17px 0px; }
+  .top_wel .wel span {
+    color: #eb8092; }
+  .top_wel:before {
+    content: "";
+    padding: 0px 1000px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    height: 1px;
+    display: block !important;
+    bottom: 0;
+    background: #e6e6e6;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-left: -1000px; }
+    .rtl .top_wel:before {
+      margin-right: -1000px;
+      margin-left: inherit; }
+  @media (max-width: 480px) {
+    .top_wel .right .popup-over {
+      float: left; }
+      .rtl .top_wel .right .popup-over {
+        float: right; } }
+  @media (max-width: 575px) {
+    .top_wel .right {
+      padding-top: 15px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      box-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      -o-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center; } }
+  @media (max-width: 480px) {
+    .top_wel {
+      text-align: center; } }
+
+@media (max-width: 991px) {
+  .ApMegamenu .navbar-toggler {
+    top: 24px;
+    right: 20px; }
+    .rtl .ApMegamenu .navbar-toggler {
+      left: 20px;
+      right: auto; } }
+@media (max-width: 767px) {
+  .ApMegamenu .navbar-toggler {
+    top: -40px;
+    left: 0; }
+    .rtl .ApMegamenu .navbar-toggler {
+      right: 0;
+      left: auto; } }
+
+@media (max-width: 991px) {
+  .header-bottom .center {
+    padding: 0; } }
+
+@media (max-width: 767px) {
+  #leo_search_block_top {
+    border: 0;
+    margin: 0;
+    position: absolute;
+    right: 215px;
+    bottom: 5px; }
+    .rtl #leo_search_block_top {
+      left: 215px;
+      right: auto; }
+    #leo_search_block_top .title_block {
+      margin: 0;
+      padding: 0;
+      display: block;
+      font-size: 0;
+      z-index: 9999; }
+      #leo_search_block_top .title_block:before {
+        content: "\f002";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 300;
+        font-size: 25px;
+        color: #333743; }
+    #leo_search_block_top .list-cate-wrapper {
+      display: none; }
+    #leo_search_block_top form {
+      opacity: 0;
+      -ms-opacity: 0;
+      -o-opacity: 0;
+      -moz-opacity: 0;
+      -webkit-opacity: 0;
+      filter: alpha(opacity=0);
+      visibility: hidden;
+      max-width: 300px;
+      border: 1px solid #000;
+      position: absolute;
+      width: 100%;
+      top: 100%;
+      transform: translateY(20px);
+      transition: all 0.3s;
+      width: 300px;
+      right: 0;
+      background: #fff;
+      z-index: 9; }
+      #leo_search_block_top form button {
+        background: #000; }
+      #leo_search_block_top form .form-control {
+        height: 45px; }
+    #leo_search_block_top.show form {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(10px); }
+
+  .header-bottom {
+    position: relative; }
+    .header-bottom .center {
+      position: static; } }
+@media (max-width: 575px) {
+  #leo_search_block_top form {
+    right: -200px; }
+    .rtl #leo_search_block_top form {
+      left: -200px;
+      right: auto; } }
+@media (max-width: 480px) {
+  #leo_search_block_top {
+    right: 195px; }
+    .rtl #leo_search_block_top {
+      left: 195px;
+      right: auto; } }
+
+/*# sourceMappingURL=headerposition3264514865.css.map */

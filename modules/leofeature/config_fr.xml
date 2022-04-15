@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>leofeature</name>
+    <displayName><![CDATA[Fonction Leo]]></displayName>
+    <version><![CDATA[2.2.1]]></version>
+    <description><![CDATA[Leo fonction pour prestashop 1.7: panier ajax, panier d&eacute;roulant, panier mouche, examen, comparer, liste &agrave; la liste des produits]]></description>
+    <author><![CDATA[Leotheme]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

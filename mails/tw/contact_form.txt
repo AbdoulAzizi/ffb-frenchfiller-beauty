@@ -1,0 +1,17 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+您的留言已成功發送。 感謝您抽出寶貴時間給我們寫信！
+
+訂單編號 #:  {order_name}
+
+商品：  {product_name}
+
+附件： {attached_file}
+
+我們將盡快回覆。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

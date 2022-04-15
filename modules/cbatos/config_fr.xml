@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>cbatos</name>
+    <displayName><![CDATA[Carte de cr&eacute;dit avec SIPS/ATOS V1]]></displayName>
+    <version><![CDATA[7.0.2]]></version>
+    <description><![CDATA[Module de paiement ATOS V1 par CS Internet Cr&eacute;ations]]></description>
+    <author><![CDATA[CS Internet Creations]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[La désinstallation du module va effacer votre configuration ainsi que les identités des transactions.]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

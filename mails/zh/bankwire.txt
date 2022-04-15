@@ -1,0 +1,31 @@
+{shop_url}
+
+您好 {firstname} {lastname},
+
+感谢在 {shop_name} 购物！
+
+Order ID {order_name} - 待付款
+
+订单号为 {order_name} 的订单已经成功下单，我们将在收到付款后马上发货 。
+
+付款方式: 银行电汇
+
+您已经选择银行电汇付款 以下是您转账所需的信息：
+
+金额  {total_paid}
+
+帐户所有者：  {bankwire_owner}
+
+帐户的详细资料 {bankwire_details}
+
+银行地址： {bankwire_address}
+
+请在银行转账说明里备注你的订单号码
+
+Follow your order and download your invoice on our shop, go to the [历史及我的订单明细]({history_url}) section of your customer account.
+
+If you have a guest account, you can follow your order via the [客户跟踪]({guest_tracking_url}) section on our shop.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

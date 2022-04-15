@@ -1,0 +1,41 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+多謝惠顧 {shop_name}!
+
+訂單詳情
+
+訂單： {order_name} 訂購日期： {date}
+
+付款： {payment}
+
+編號	商品	單價	數量	總價  {products_txt} {discounts_txt}
+商品	{total_products}
+折扣	{total_discounts}
+禮品包裝	{total_wrapping}
+運費	{total_shipping}
+含總稅	{total_tax_paid}
+總付款額	{total_paid}
+
+運費
+
+承運商： {carrier}
+
+付款： {payment}
+
+送貨地址
+
+{delivery_block_txt}
+
+帳單地址
+
+{invoice_block_txt}
+
+跟踪訂單並在我們的網站上下載發票，請轉到客戶帳戶的[訂單紀錄及詳細資料]({history_url})部分。
+
+如果您是非會員帳戶，您可以在我們店舖的[訪客追蹤]({guest_tracking_url}) 頁面追踪您的訂單。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

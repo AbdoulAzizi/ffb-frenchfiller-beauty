@@ -1,0 +1,13 @@
+{shop_url}
+
+您好 {firstname} {lastname},
+
+保存新的警报消息
+
+警告: 你在后台收到一个新的 log 警示.
+
+您可以在后台的 "工具" > "日志"部分进行检查。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

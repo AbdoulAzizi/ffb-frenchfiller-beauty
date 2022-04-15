@@ -1,0 +1,240 @@
+/**
+ * 2021-2022
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * It is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this module to newer
+ * versions in the future. If you wish to customize the module for your
+ * needs please refer to
+ * http://doc.prestashop.com/display/PS15/Overriding+default+behaviors
+ * for more information.
+ *
+ * @author    Digincube <digincubeagency@gmail.com>
+ * @copyright 2021-2022 Digincube
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+.form-control.static-qty {
+    background: #fff;
+    width: 65px;
+}
+.splide {
+    visibility: visible !important;
+}
+.gifts-panel {
+    max-width: 800px;
+    width: 100%;
+}
+.gift-slider{
+	width:100% !important;
+}
+
+.gift--slider:not(.splide--slide) ul {display: flex;width: 100%;}
+
+.gift--slider:not(.splide--slide) ul li {
+    margin-right: 15px;
+}
+.gift-widget-wrapper  .item.giftProduct{
+	position:relative;
+}
+:root {
+  --card-line-height: 1.2em;
+  --card-padding: 5px;
+  --card-radius: 0.5em;
+  --color-green: #2fb5d2;
+  --color-gray: #e2ebf6;
+  --color-dark-gray: #c4d1e1;
+  --radio-border-width: 2px;
+  --radio-size: 25px;
+}
+
+.gift-widget-wrapper .splide__arrow--next {
+    right: -34px;
+}
+.gift-widget-wrapper .splide__arrow--prev {
+    left: -34px;
+}
+.gift-widget-wrapper .giftProduct .rbutton {
+  font-size: inherit;
+  margin: 0;
+  position: absolute;
+  right: calc(var(--card-padding) + var(--radio-border-width));
+  top: calc(5px + var(--radio-border-width));
+  opacity:1 !important;
+}
+.gift-widget-wrapper .item.giftProduct div.checker span.checked,
+div.checker span{
+	background:none !important;
+}
+.gift-widget-wrapper .item.giftProduct div.checker{
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  .gift-widget-wrapper .giftProduct .rbutton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #fff;
+    border: var(--radio-border-width) solid #59bdd3;
+    border-radius: 50%;
+    cursor: pointer;
+    height: var(--radio-size);
+    outline: none;
+    transition: background 0.2s ease-out, border-color 0.2s ease-out;
+    width: var(--radio-size);
+  }
+  .gift-widget-wrapper .giftProduct .rbutton::after {
+    border: var(--radio-border-width) solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: "";
+    display: block;
+    height: 0.95rem;
+    left: 25%;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg) translate(-50%, -50%);
+    width: 0.70rem;
+  }
+  .gift-widget-wrapper .giftProduct .rbutton:checked {
+    background: var(--color-green);
+    border-color: var(--color-green);
+  }
+}
+
+.gift-widget-wrapper .giftProduct .rbutton:checked ~ .plan-details {
+  border-color: var(--color-green);
+}
+
+.gift-widget-wrapper .giftProduct .rbutton:focus ~ .plan-details {
+  box-shadow: 0 0 0 2px var(--color-dark-gray);
+}
+
+.gift-widget-wrapper .giftProduct .rbutton:disabled ~ .plan-details {
+  color: var(--color-dark-gray);
+  cursor: default;
+}
+
+.rbutton:disabled ~ .plan-details .plan-type {
+  color: var(--color-dark-gray);
+}
+.gift-widget-wrapper .tns-controls button {
+    width: 25px;
+    outline: none !important;
+    height: 25px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    position: absolute;
+    top: 45%;
+    z-index: 999;
+}
+.tns-controls button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+.tns-outer [data-controls="next"] {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    right: -17px;
+}
+
+.tns-outer [data-controls="prev"] {
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    transform: rotate(225deg);
+	left: -17px;
+}
+
+.gift-widget-wrapper {
+    position: relative;
+	margin-top: 25px;
+}
+select.mgift_ipa {
+    display: table;
+    margin: 0 auto;
+    width: 97%;
+}
+.gift-widget-wrapper .gp-name {
+        text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.item.giftProduct img {
+    width: 100%;
+}
+.gift-widget-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: block;
+	    font-weight: bold;
+}
+.add-gift-action {
+    text-align: center;
+	    margin-top: 20px;
+}
+.addGiftToCart{
+	text-transform:none;
+	position: relative;
+}
+.addGiftToCart.processing:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ibWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsgZGlzcGxheTogYmxvY2s7IHNoYXBlLXJlbmRlcmluZzogYXV0bzsiIHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIj4KPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOTNkYmU5IiBzdHJva2Utd2lkdGg9IjciIHI9IjM1IiBzdHJva2UtZGFzaGFycmF5PSIxNjQuOTMzNjE0MzEzNDY0MTUgNTYuOTc3ODcxNDM3ODIxMzgiPgogIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxcyIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCIga2V5VGltZXM9IjA7MSI+PC9hbmltYXRlVHJhbnNmb3JtPgo8L2NpcmNsZT4KPCEtLSBbbGRpb10gZ2VuZXJhdGVkIGJ5IGh0dHBzOi8vbG9hZGluZy5pby8gLS0+PC9zdmc+) no-repeat 50% 50% scroll rgba(0,0,0,.4);
+    background-size: 46px;
+}
+.item.giftProduct .product-chooser-option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #fff;
+    border: var(--radio-border-width) solid #59bdd3;
+    border-radius: 50%;
+    cursor: pointer;
+    height: var(--radio-size);
+    outline: none;
+    transition: background 0.2s ease-out, border-color 0.2s ease-out;
+    width: var(--radio-size);
+    font-size: inherit;
+    margin: 0;
+    position: absolute;
+    right: calc(var(--card-padding) + var(--radio-border-width));
+    top: calc(5px + var(--radio-border-width));
+}
+
+
+.product-chooser-option::after {
+        border: var(--radio-border-width) solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: "";
+    display: block;
+    height: 12px;
+    left: 25%;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg) translate(-50%, -50%);
+    width: 8px;
+}
+.giftProduct.selected .product-chooser-option {
+    background: var(--color-green);
+    border-color: var(--color-green);
+}
+ 

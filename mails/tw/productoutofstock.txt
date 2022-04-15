@@ -1,0 +1,15 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+{product} 就快缺貨了。
+
+現在庫存不足 {last_qty}  個。
+
+所剩存貨： {qty}
+
+補充庫存，請轉到後台的目錄>庫存部分以管理庫存。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

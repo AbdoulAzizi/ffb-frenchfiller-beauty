@@ -1,0 +1,37 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+#index {
+  background-image: url(../../../../../assets/img/modules/appagebuilder/img/leo_beautique_banner.jpg); }
+
+#page {
+  background: #fff; }
+
+@media (min-width: 992px) {
+  #index {
+    max-width: 1480px;
+    margin: auto; } }
+
+.block_newsletter .alert {
+  color: #000;
+  padding: 20px 50px; }
+
+/*# sourceMappingURL=profile2327680962.css.map */

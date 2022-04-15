@@ -1,0 +1,13 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+優惠券代碼生成
+
+這是你的新優惠券代碼： {voucher_num}
+
+要使用此優惠券，只需在結帳時復制/粘貼此代碼。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

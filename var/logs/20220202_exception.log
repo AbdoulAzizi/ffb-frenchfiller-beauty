@@ -1,0 +1,2 @@
+*ERROR* 	v1.7.7.3	2022/02/02 - 11:18:45: Dispatcher::createUrl() miss required parameter &quot;rewrite&quot; for route &quot;module-leoblog-blog&quot; at line 923 in file classes/Dispatcher.php
+*ERROR* 	v1.7.7.3	2022/02/02 - 21:46:49: Dispatcher::createUrl() miss required parameter &quot;rewrite&quot; for route &quot;module-leoblog-blog&quot; at line 923 in file classes/Dispatcher.php

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+	<version value="1.4">
+	<ccc available="true" />
+	<guest_checkout available="true" />
+	<one_page_checkout available="true" />
+	<store_locator available="true" />
+	</version>
+	<author>leotheme</author>
+<name>Live Theme Editor</name>	
+<selectors>
+	<items>
+		<header>Body Content</header>
+		<match>body</match>
+		<item>
+			<type>image</type>
+			<label>Body Bg Image</label>
+			<selector>body</selector>
+			<attrs>background-image</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Background Content</label>
+			<selector>body</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>.container</selector>
+			<attrs>background-image</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Container Background</label>
+			<selector>.container</selector>
+			<attrs>background-color</attrs>
+		</item> 
+	 	<item>
+			<type>fontsize</type>
+			<label>Font-Size</label>
+			<selector>body</selector>
+			<attrs>font-size</attrs>
+		</item>
+	 	<item>
+			<type>fontfamily</type>
+			<label>Font-Family</label>
+			<selector>.wrapper .container .title_block</selector>
+			<attrs>font-family</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>body,p</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Link Color</label>
+			<selector>a</selector>
+			<attrs>color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Link Hover Color</label>
+			<selector>a:hover</selector>
+			<attrs>color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Headings Color</label>
+			<selector>h1, h2, h3, h4, h5, h6</selector>
+			<attrs>color</attrs>
+		</item>
+	</items>
+	<!-- top bar -->
+	<items>
+		<header>Header Nav</header>
+		<match>header-nav</match>
+		<item>
+			<type>image</type>
+			<label>Bg Outside Image</label>
+			<selector>.header-nav</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>.header-nav</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>.header-nav .container</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Container Color</label>
+			<selector>.header-nav .container</selector>
+			<attrs>background-color</attrs>
+		</item>
+	 	<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>.header-nav .container</selector>
+			<attrs>color</attrs>
+		</item> 
+
+	 	<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>.header-nav a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>.header-nav a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<!-- Header Nav 1 -->
+		<item>
+			<type>subtitle</type>
+			<content>Header Nav 1</content>
+		</item>
+		<item>
+			<type>image</type>
+			<label>Bg Outside Image</label>
+			<selector>.topnav</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>.topnav</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>.topnav .container</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Container Color</label>
+			<selector>.topnav .container</selector>
+			<attrs>background-color</attrs>
+		</item>
+	 	<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>.topnav .container</selector>
+			<attrs>color</attrs>
+		</item> 
+	 	<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>.topnav a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>.topnav a:hover</selector>
+			<attrs>color</attrs>
+		</item>
+		<!-- Header Nav 1 -->
+
+		<!-- Header Nav 2 -->
+		<item>
+			<type>subtitle</type>
+			<content>Header Nav 2</content>
+		</item>
+		<item>
+			<type>image</type>
+			<label>Bg Outside Image</label>
+			<selector>.bottomnav</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>.bottomnav</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>.bottomnav .container</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Container Color</label>
+			<selector>.bottomnav .container</selector>
+			<attrs>background-color</attrs>
+		</item>
+	 	<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>.bottomnav .container</selector>
+			<attrs>color</attrs>
+		</item> 
+	 	<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>.bottomnav a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>.bottomnav a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<!-- Header Nav 2 -->
+	</items>
+	<items>
+		<header>Header Main</header>
+		<match>header-main</match>
+		<item>
+			<type>image</type>
+			<label>Bg Outside Image</label>
+			<selector>.header-top</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>.header-top</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>.header-top .container</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Container Color</label>
+			<selector>.header-top .container</selector>
+			<attrs>background-color</attrs>
+		</item> 
+	 	<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>.header-top .container</selector>
+			<attrs>color</attrs>
+		</item> 
+	 	<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>.header-top a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>.header-top a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+	</items>
+	<items>
+		<header>Items Header</header>
+		<match>items-header</match>
+		<!-- Megamenu -->
+		<item>
+			<type>subtitle</type>
+			<content>Mega Megamenu</content>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Color</label>
+			<selector>.leo-megamenu</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Text Color</label>
+			<selector>.leo-megamenu, .leo-megamenu .dropdown-menu .menu-title, .leo-megamenu p</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Link Color</label>
+			<selector>.leo-megamenu .navbar-nav > li > a, .leo-megamenu .navbar-nav > li > a > .menu-title, .leo-megamenu .dropdown-menu li a, .leo-megamenu .dropdown-menu a > .menu-title, .leo-megamenu .dropdown-menu .menu-title a, .leo-widget .product-block .name a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Link Hover Color</label>
+			<selector>.leo-megamenu .navbar-nav > li > a:hover, .leo-megamenu .navbar-nav > li > a:hover > .menu-title, .leo-megamenu .dropdown-menu li a:hover, .leo-megamenu .dropdown-menu a:hover > .menu-title, .leo-megamenu .dropdown-menu .menu-title a:hover, .leo-widget .product-block .name a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<!-- Search -->
+		<item>
+			<type>subtitle</type>
+			<content>Search</content>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Background Color</label>
+			<selector>.search-widget form input[type=text]</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Background Color(focus)</label>
+			<selector>.search-widget form input[type=text]:focus</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Input Border Color</label>
+			<selector>.search-widget form input[type=text]</selector>
+			<attrs>border-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Input Border Color(focus)</label>
+			<selector>.search-widget form input[type=text]:focus</selector>
+			<attrs>border-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Text Color</label>
+			<selector>.search-widget form input[type=text]</selector>
+			<attrs>color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Text Color(focus)</label>
+			<selector>.search-widget form input[type=text]:focus</selector>
+			<attrs>color</attrs>
+		</item>  
+		<item>
+			<type>text</type>
+			<label>Button Bg Color</label>
+			<selector>.search-widget form button[type=submit]</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Button Bg Color(hover)</label>
+			<selector>.search-widget form button[type=submit]:hover</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Button Text Color</label>
+			<selector>.search-widget form button[type=submit]</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Button Text Color(hover)</label>
+			<selector>.search-widget form button[type=submit]:hover</selector>
+			<attrs>color</attrs>
+		</item>
+		<!-- Cart -->
+		<item>
+			<type>subtitle</type>
+			<content>Cart</content>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Background Color</label>
+			<selector>#_desktop_cart</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Icon Background</label>
+			<selector>#_desktop_cart .cart-preview .shopping-cart</selector>
+			<attrs>background</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Text Color</label>
+			<selector>#_desktop_cart</selector>
+			<attrs>color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Text Color(hover)</label>
+			<selector>#_desktop_cart .cart-preview.active a:hover</selector>
+			<attrs>color</attrs>
+		</item>	
+	</items>
+	<items>
+		<header>Footer</header>
+		<match>footer</match>
+		<item>
+			<type>image</type>
+			<label>>Bg Outside Image</label>
+			<selector>#footer</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>#footer</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>#footer .container</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Color</label>
+			<selector>#footer .container</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>#footer .container</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>#footer a, #footer ul li a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>#footer a:hover, #footer ul li a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Title Block</label>
+			<selector>#footer .block .title_block</selector>
+			<attrs>color</attrs>
+		</item>
+		<!-- Footer Top -->
+		<item>
+			<type>subtitle</type>
+			<content>Footer Top</content>
+		</item>
+		<item>
+			<type>image</type>
+			<label>Bg Outside Image</label>
+			<selector>#footer .footer-top</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>#footer .footer-top</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>#footer .footer-top .container</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Container Color</label>
+			<selector>#footer .footer-top .container</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>#footer .footer-top .container</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>#footer .footer-top a, #footer .footer-top ul li a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>#footer .footer-top a:hover, #footer .footer-top ul li a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Title Block</label>
+			<selector>#footer .footer-top .block .title_block</selector>
+			<attrs>color</attrs>
+		</item>
+		<!-- Footer Center -->
+		<item>
+			<type>subtitle</type>
+			<content>Footer Center</content>
+		</item>
+		<item>
+			<type>image</type>
+			<label>Bg Outside Image</label>
+			<selector>#footer .footer-center</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>#footer .footer-center</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>#footer .footer-center .container</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Container Color</label>
+			<selector>#footer .footer-center .container</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>#footer .footer-center .container</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>#footer .footer-center a, #footer .footer-center ul li a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>#footer .footer-center a:hover, #footer .footer-center ul li a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Title Block</label>
+			<selector>#footer .footer-center .block .title_block</selector>
+			<attrs>color</attrs>
+		</item>
+		<!-- Footer Bottom -->
+		<item>
+			<type>subtitle</type>
+			<content>Footer Bottom</content>
+		</item>
+		<item>
+			<type>image</type>
+			<label>Bg Outside Image</label>
+			<selector>#footer .footer-bottom</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Outside Color</label>
+			<selector>#footer .footer-bottom</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Container Bg Image</label>
+			<selector>#footer .footer-bottom</selector>
+			<attrs>background-image</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg Container Color</label>
+			<selector>#footer .footer-bottom .container</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>#footer .footer-bottom .container</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>#footer .footer-bottom a, #footer .footer-bottom ul li a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>#footer .footer-bottom a:hover, #footer .footer-bottom ul li a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Title Block</label>
+			<selector>#footer .footer-bottom .block .title_block</selector>
+			<attrs>color</attrs>
+		</item>
+	</items> 
+</selectors>
+
+<elements>
+	<items>
+		<header>Products</header>
+		<match>product</match>
+		<item>
+			<type>text</type>
+			<label>Text Color</label>
+			<selector>.page-product section#main p</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Name Product</label>
+			<selector>.page-product .product-detail-name</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Price</label>
+			<selector>.product-prices .current-price</selector>
+			<attrs>color</attrs>
+		</item> 
+ 		<item>
+			<type>text</type>
+			<label>Color Price Old</label>
+			<selector>.product-discount .regular-price</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>BgColor Cart</label>
+			<selector>.product-actions .add-to-cart</selector>
+			<attrs>background-color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>BgColor Cart(hover)</label>
+			<selector>.product-actions .add-to-cart:hover</selector>
+			<attrs>background-color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Color Cart</label>
+			<selector>.product-actions .add-to-cart</selector>
+			<attrs>color</attrs>
+		</item> 
+	</items>
+	<items>
+		<header>Modules default in Sidebar</header>
+		<match>modules</match>
+			<item>
+				<type>text</type>
+				<label>Heading Background</label>
+				<selector>.sidebar .block .title_block</selector>
+				<attrs>background-color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Heading Color</label>
+				<selector>.sidebar .block .title_block a, .sidebar .block .title_block</selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Content Background</label>
+				<selector>.sidebar .block .block_content</selector>
+				<attrs>background-color</attrs>
+			</item>  
+			<item>
+				<type>text</type>
+				<label>Content Color</label>
+				<selector>.sidebar .block .block_content</selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Link Color</label>
+				<selector>.sidebar .block .block_content a</selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Link Hover Color</label>
+				<selector>.sidebar .block .block_content a</selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Border Color</label>
+				<selector>.sidebar .block .block_content, .sidebar .block_content li </selector>
+				<attrs>border-color</attrs>
+			</item> 
+	</items>
+
+	<items>
+		<header>Modules highlighted  in Sidebar</header>
+		<match>highlighted-modules</match>
+			<item>
+				<type>text</type>
+				<label>Heading Background</label>
+				<selector>.sidebar .block-highlighted .title_block</selector>
+				<attrs>background-color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Heading Color</label>
+				<selector>.sidebar .block-highlighted .title_block, .sidebar .block-highlighted .title_block a </selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Content Background</label>
+				<selector>.sidebar .block-highlighted .block_content</selector>
+				<attrs>background-color</attrs>
+			</item>  
+
+			<item>
+				<type>text</type>
+				<label>Content Color</label>
+				<selector>.sidebar .block-highlighted .block_content</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Link Color</label>
+				<selector>.sidebar .block-highlighted .block_content a</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Link Hover Color</label>
+				<selector>.sidebar .block-highlighted .block_content a:hover</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Border Color</label>
+				<selector>.sidebar .block-highlighted .block_content li a, .sidebar .block-highlighted .block_content </selector>
+				<attrs>border-color</attrs>
+			</item> 
+	</items>
+
+</elements>
+</themeeditor>

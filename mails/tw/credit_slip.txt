@@ -1,0 +1,13 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+訂單編號 {order_name} - 折讓單
+
+已使用與您的訂單（參考編號 {order_name} ）有關的名稱生成了信用單，。
+
+如要查看此信用單並在我們的網站上下載您的發票，請轉到您帳戶的[存款單]({history_url})部分。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

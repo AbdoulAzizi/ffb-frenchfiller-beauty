@@ -1,0 +1,27 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+{shop_name} 感謝您的惠顧。
+
+訂單編號 {order_name} - 等待支票付款
+
+編號為 {order_name} 的訂單已成功下置，我們將在收到付款後位馬上發貨 。
+
+付款方式：支票
+
+你選擇了以支票支付。 以下是您的支票所需的信息：
+
+金額：  {total_paid}
+
+支票抬頭：  {check_name}
+
+請郵寄支票到：  {check_address_html}
+
+跟踪訂單並在我們的網站上下載發票，請轉到客戶帳戶的[訂單紀錄及詳細資料]({history_url})部分。
+
+如果您是非會員帳戶，您可以在我們店舖的[訪客追蹤]({guest_tracking_url}) 頁面追踪您的訂單。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

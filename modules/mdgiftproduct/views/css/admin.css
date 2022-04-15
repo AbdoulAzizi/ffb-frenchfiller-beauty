@@ -1,0 +1,426 @@
+/**
+ * 2021-2022
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * It is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this module to newer
+ * versions in the future. If you wish to customize the module for your
+ * needs please refer to
+ * http://doc.prestashop.com/display/PS15/Overriding+default+behaviors
+ * for more information.
+ *
+ * @author    Digincube <digincubeagency@gmail.com>
+ * @copyright 2021-2022 Digincube
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+ .btn-default.remove-product,.btn-default.remove-condition {
+    display: flex;
+    align-items: center !important;
+    color: #fff !important;
+    background-color: #6c868e;
+    border-color: #6c868e;
+    box-shadow: none;
+    font-weight: 600;
+    border-radius: 0;
+    border: 0;
+    padding: 4px 0px;
+}
+#gift_rule_form .alert-info {
+    background-color: #fff;
+    border: 2px solid #25b9d7;
+    color: #363a41;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 0;
+}
+#gift_rule_form .alert.alert-info:before {
+    content: "\E88F";
+    background-color: #dff5f9;
+    color: #25b9d7;
+    font-family: Material Icons;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    font-size: 1.5rem;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    vertical-align: middle;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 46px;
+    width: 2.875rem;
+    height: 100%;
+    text-align: center;
+    font-size: 25.008px;
+    font-size: 1.563rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /*color: #25b9d7;
+    display: block;
+    height: 19px;
+    left: 7px;
+    position: absolute;
+    top: 8px;
+    width: 19px;
+    font-size: 30px;
+    background-color: #dff5f9;
+    color: #25b9d7;*/
+}
+#gift_rule_form .add-condition:hover,#gift_rule_form .add-rproduct:hover {
+    -webkit-box-shadow: none;
+    background-color: #00aff0;
+    border-color: #008abd;
+    box-shadow: none;
+    color: #fff;
+}
+#gift_rule_form .add-condition, #gift_rule_form .add-rproduct{
+    color: #6c868e;
+    background-image: none;
+    border-color: #6c868e;
+    font-weight: 600;
+    border-radius: .063rem;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.multi-select-container {
+    display: inline-block;
+    position: relative;
+}
+
+.multi-select-menu {
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    z-index: 1;
+    float: left;
+    min-width: 100%;
+    background: #fff;
+    margin: 1em 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.multi-select-menuitem {
+    display: block;
+    font-size: 0.875em;
+    padding: 0.6em 1em 0.6em 30px;
+    white-space: nowrap;
+}
+
+.multi-select-menuitem--titled:before {
+    display: block;
+    font-weight: bold;
+    content: attr(data-group-title);
+    margin: 0 0 0.25em -20px;
+}
+
+.multi-select-menuitem--titledsr:before {
+    display: block;
+    font-weight: bold;
+    content: attr(data-group-title);
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.multi-select-menuitem + .multi-select-menuitem {
+    padding-top: 0;
+}
+
+.multi-select-presets {
+    border-bottom: 1px solid #ddd;
+}
+
+.multi-select-menuitem input {
+    position: absolute;
+    margin-top: 0.25em;
+    margin-left: -20px;
+}
+
+.multi-select-button {
+    display: inline-block;
+    font-size: 0.875em;
+    padding: 0.2em 0.6em;
+    max-width: 16em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: -0.5em;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+.multi-select-button:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.4em 0.4em 0 0.4em;
+    border-color: #999 transparent transparent transparent;
+    margin-left: 0.4em;
+    vertical-align: 0.1em;
+}
+
+.multi-select-container--open .multi-select-menu {
+    display: block;
+}
+
+.multi-select-container--open .multi-select-button:after {
+    border-width: 0 0.4em 0.4em 0.4em;
+    border-color: transparent transparent #999 transparent;
+}
+
+.multi-select-container--positioned .multi-select-menu {
+    /* Avoid border/padding on menu messing with JavaScript width calculation */
+    box-sizing: border-box;
+}
+
+.multi-select-container--positioned .multi-select-menu label {
+    /* Allow labels to line wrap when menu is artificially narrowed */
+    white-space: normal;
+}
+/*-----------------*/
+
+
+#gift-rule-panel .productTabs .nav.nav-tabs li a {
+    display:flex;
+    align-items: center;
+    color: #6c868e;
+    font-size: 16px;
+}
+
+#gift-rule-panel .productTabs .nav.nav-tabs li a i {
+    margin-right: 6px;
+}
+
+#gift-rule-panel .productTabs .nav.nav-tabs li.active {
+    border-top: .1875rem solid #25b9d7;
+}
+
+#gift-rule-panel .productTabs .nav.nav-tabs li a:hover {
+    border-color: #fff;
+}
+
+div#gift-rule-panel h3 {
+    padding: .75rem !important;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #dbe6e9 !important;
+    color: #363a41;
+    font-weight: 500;
+    display: flex;
+    margin-right: -20px !important;
+    margin-left: -19px !important;
+    align-items: center;
+    font-size: 19px !important;
+    height: 53px !important;
+}
+
+#gift-rule-panel input[type="text"],
+#gift-rule-panel input[type="number"],
+#gift-rule-panel select,
+#gift-rule-panel textarea,
+#form-mdgift_rule input[type="text"],
+#form-mdgift_rule select  {
+    line-height: 1.5;
+    color: #363a41;
+    background-color: #fafafa;
+    background-clip: padding-box;
+    border: 1px solid #bbcdd2;
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#gift-rule-panel .control-label,#gift-rule-panel .control-label .label-tooltip {
+    font-size: 13px;
+}
+
+
+
+.btn-default.remove-product i, .btn-default.remove-condition i {
+    color: #fff !important;
+    font-size: 23px;
+}
+
+.btn-default.remove-product:hover, .btn-default.remove-condition:hover {
+    background: #c05c67 !important;
+}
+
+#gift-rule-panel .dayContainer {
+    width:12%
+}
+
+#gift-rule-panel .add-condition i, #gift_rule_form .add-rproduct i {
+    margin-right: 5px;
+}
+
+#gift_product_rule_conditions .colorBox {
+    border-radius: 0;
+}
+
+.condition.panel {border: 1px solid #bbcdd2 !important;border-radius: 0 !important;box-shadow: 0 0 5px 0 rgb(0 0 0 / 12%);background-color: #ffffff;}
+
+#gift-rule-panel tr.row-select-unselect p {
+    font-size: 14px;
+}
+
+#gift-rule-panel .input-group-addon {
+    background:#fafbfc !important;
+    color: #6c868e;
+    font-weight: 600;
+}
+
+
+div#gift-rule-panel {}
+
+p.inline-label {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.panel.gift_product_rule_tab {
+    border: 1px solid #bbcdd2 !important;
+    border-radius: 0 !important;
+}
+
+.panel.product_container {
+    border-radius: 0 !important;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 12%);
+    background-color: #ffffff;
+}
+
+
+#gift-rule-panel #toolbar-footer button {
+    color: #fff ;
+    background-color: #25b9d7;
+    border-color: #25b9d7;
+    font-weight:600;
+    font-size:14px
+}
+
+#gift-rule-panel #toolbar-footer i{
+    color:#fff
+}
+#gift-rule-panel #toolbar-footer button:hover{
+    background-color: #3ed2f0;
+    border-color: #3ed2f0;
+}
+
+
+a#desc-cart_rule-cancel {
+    color: #fff;
+    background-color: #6c868e;
+    border-color: #6c868e;
+    box-shadow: none;
+}
+
+#form-mdgift_rule tr.filter th {
+  background: #fafbfc !important;
+}
+
+
+#form-mdgift_rule .table tbody tr td{
+   padding: .4rem;
+}
+#form-mdgift_rule .table tbody tr{
+ border-top: 0px solid #bbcdd2;
+ background:#fff
+}
+#form-mdgift_rule .table tbody tr td{
+ border-bottom: 1px solid #bbcdd2;
+ background:#fff
+}
+
+ 
+
+#form-mdgift_rule .table .row-selector input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid #bbcdd2 !important;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background .3s;
+}
+#table-mdgift_rule thead tr:not(.filter) th {
+    border-bottom: .125rem solid #25b9d7 !important;
+    border-top: none;
+}
+#table-mdgift_rule thead tr:not(.filter) th span {
+    font-weight:600;
+    color: #363a41;
+    font-size: 14px;
+}
+form#form-mdgift_rule .panel-heading {
+	font-family: Open Sans,Helvetica,Arial,sans-serif !important;
+    padding: .625rem !important;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #dbe6e9  !important;
+    height: 42px !important;
+    font-weight: 600  !important;
+    text-transform: none !important;
+    line-height: 1.5rem  !important;
+    color: #363a41 !important;
+    font-size: 16px !important;
+    letter-spacing: 0.5px;
+}
+#form-mdgift_rule input[type="text"], #form-mdgift_rule select {
+    background:#fff
+}
+#gift-rule-panel .remove-product {
+    display: flex;
+    align-items: center;
+}
+
+#gift-rule-panel .tab-page, 
+#gift-rule-panel .add-rproduct,
+#gift-rule-panel .remove-condition,
+#gift-rule-panel .add-condition {
+    display: flex;
+    align-items: center;
+}
+#gift-rule-panel .dayContainer .input-group-addon {
+    padding: 7px;
+}
+
+#gift-rule-panel .dayContainer input.mini-time {
+    padding:0px;
+    text-align:center;
+}

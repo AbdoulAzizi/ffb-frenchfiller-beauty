@@ -1,0 +1,15 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+感謝您的信任。
+
+我們很高興為您的下一個訂單提供  {amount}％ 的折扣。 此優惠有效期為 {days} 天，千萬不要錯過機會！
+
+這是您的優惠券代碼： {voucher_num}
+
+在您的購物車中輸入驗證碼去領取您的折扣。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

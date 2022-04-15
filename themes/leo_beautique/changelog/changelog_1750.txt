@@ -1,0 +1,25 @@
+**** TPL files change:
+- modules\ps_languageselector\ps_languageselector.tpl
+- templates\_partials\form-fields.tpl
+- templates\catalog\_partials\product-details.tpl
+- templates\catalog\_partials\product-prices.tpl
+- templates\catalog\listing\category.tpl
+- templates\catalog\listing\product-list.tpl
+- templates\checkout\_partials\steps\payment.tpl
+- templates\checkout\_partials\address-form.tpl
+- templates\checkout\_partials\cart-detailed.tpl
+- templates\checkout\_partials\cart-detailed-product-line.tpl
+- templates\checkout\_partials\order-confirmation-table.tpl
+- templates\customer\order-return.tpl
+- templates\checkout\checkout.tpl
+
+**** JS files change:
+- assets\js\theme.js
+
+**** Files removed:
+- modules\ps_legalcompliance\views\templates\hook\hookDisplayOverrideTemplateFooter.tpl
+
+**** New files adding:
+- modules\ps_legalcompliance\views\templates\hook\hookDisplayFooter.tpl
+- templates\catalog\_partials\category-header.tpl
+

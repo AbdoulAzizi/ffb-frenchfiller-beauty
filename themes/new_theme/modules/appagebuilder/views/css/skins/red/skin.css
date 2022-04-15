@@ -1,0 +1,263 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+a:hover, a:focus {
+  color: #e44853; }
+
+.btn-inverse {
+  color: #FFFFFF;
+  background-color: #e44853;
+  border-color: #e44853; }
+  .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active {
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #ececec; }
+  .open .btn-inverse.dropdown-toggle {
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #ececec; }
+  .btn-inverse:active, .btn-inverse.active {
+    background-image: none; }
+  .open .btn-inverse.dropdown-toggle {
+    background-image: none; }
+  .btn-inverse.disabled, .btn-inverse.disabled:hover, .btn-inverse.disabled:focus, .btn-inverse.disabled:active, .btn-inverse.disabled.active, .btn-inverse[disabled], .btn-inverse[disabled]:hover, .btn-inverse[disabled]:focus, .btn-inverse[disabled]:active, .btn-inverse[disabled].active, fieldset[disabled] .btn-inverse, fieldset[disabled] .btn-inverse:hover, fieldset[disabled] .btn-inverse:focus, fieldset[disabled] .btn-inverse:active, fieldset[disabled] .btn-inverse.active {
+    background-color: #e44853;
+    border-color: #e44853; }
+  .btn-inverse .badge {
+    color: #e44853;
+    background-color: #FFFFFF; }
+
+.btn-outline {
+  color: #FFFFFF;
+  background-color: #282d35;
+  border-color: #282d35; }
+  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+    color: #FFFFFF;
+    background-color: #e44853;
+    border-color: #e44853; }
+  .open .btn-outline.dropdown-toggle {
+    color: #FFFFFF;
+    background-color: #e44853;
+    border-color: #e44853; }
+  .btn-outline:active, .btn-outline.active {
+    background-image: none; }
+  .open .btn-outline.dropdown-toggle {
+    background-image: none; }
+  .btn-outline.disabled, .btn-outline.disabled:hover, .btn-outline.disabled:focus, .btn-outline.disabled:active, .btn-outline.disabled.active, .btn-outline[disabled], .btn-outline[disabled]:hover, .btn-outline[disabled]:focus, .btn-outline[disabled]:active, .btn-outline[disabled].active, fieldset[disabled] .btn-outline, fieldset[disabled] .btn-outline:hover, fieldset[disabled] .btn-outline:focus, fieldset[disabled] .btn-outline:active, fieldset[disabled] .btn-outline.active {
+    background-color: #282d35;
+    border-color: #282d35; }
+  .btn-outline .badge {
+    color: #282d35;
+    background-color: #FFFFFF; }
+
+.btn-primary {
+  background-color: #e44853; }
+
+.carousel-control:hover {
+  background: #e44853 !important; }
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+  background: #e44853; }
+
+.pagination a:hover, .pagination a:focus {
+  color: #e44853; }
+.pagination .current a {
+  color: #e44853; }
+
+#wrapper .breadcrumb li a:hover {
+  color: #e44853; }
+
+.products-selection .display > div.selected a {
+  color: #e44853; }
+
+/* Override Bootstrap */
+.group-span-filestyle .btn-default {
+  background: #e44853; }
+
+.custom-radio input[type="radio"]:checked + span {
+  background-color: #e44853; }
+
+/* header */
+.header-nav a:hover {
+  color: #e44853; }
+
+.popup-over a.popup-title:hover {
+  color: #e44853; }
+.popup-over .popup-content a:hover {
+  color: #e44853; }
+.popup-over .popup-content ul li.current {
+  color: #e44853; }
+  .popup-over .popup-content ul li.current a {
+    color: #e44853; }
+
+/* Sidebar */
+.sidebar .block .title_block:before {
+  background: #e44853; }
+.sidebar .block-highlighted {
+  border-color: #e44853; }
+  .sidebar .block-highlighted .title_block {
+    background-color: #e44853;
+    border-color: #e44853; }
+    .sidebar .block-highlighted .title_block:before {
+      background: none; }
+
+/* footer */
+.footer-container li a:hover {
+  color: #e44853; }
+
+/* Block cart */
+#_desktop_cart .cart-preview.active a {
+  color: #e44853; }
+
+/* Block Search */
+.search-widget form input[type=text]:focus {
+  outline: 3px #e44853 solid; }
+  .search-widget form input[type=text]:focus + button {
+    background: #e44853; }
+.search-widget form button[type=submit]:hover {
+  color: #e44853; }
+
+#leo_search_block_top {
+  border: 2px solid #e44853; }
+  #leo_search_block_top .btn {
+    background: #e44853; }
+
+/* Megamenu */
+.leo-megamenu .navbar-nav > li a:hover, .leo-megamenu .navbar-nav > li a:focus, .leo-megamenu .navbar-nav > li a:active {
+  color: #e44853; }
+.leo-megamenu .navbar-nav > li.active > a, .leo-megamenu .navbar-nav > li:hover > a, .leo-megamenu .navbar-nav > li:focus > a {
+  color: #e44853; }
+.leo-megamenu .dropdown-menu a > .menu-title:hover {
+  color: #e44853; }
+.leo-megamenu .dropdown-menu .menu-title a:hover {
+  color: #e44853; }
+
+.ApMegamenu .leo-verticalmenu .title_block {
+  background: #e44853; }
+
+/* Slideshow */
+.bannercontainer .tp-caption.btn.btn-discover:hover {
+  background: #e44853;
+  border-color: #e44853; }
+.bannercontainer .tp-caption.btn.btn-white:hover {
+  background: #e44853; }
+
+/* Product list */
+.thumbnail-container .product-title a:hover {
+  color: #e44853; }
+.thumbnail-container .quickview .quick-view:hover {
+  background: #e44853; }
+
+/* Lastest Blog */
+.blog-item .blog-meta a:hover {
+  color: #e44853; }
+
+.blog-tags a:hover span {
+  background: #e44853; }
+
+/* Block category left */
+.block-categories .collapse-icons .add:hover,
+.block-categories .collapse-icons .remove:hover {
+  color: #e44853; }
+.block-categories .arrows .arrow-right:hover,
+.block-categories .arrows .arrow-down:hover {
+  color: #e44853; }
+
+/* Block Newsletter */
+.block_newsletter form .btn:hover {
+  background: #e44853;
+  border-color: #e44853; }
+
+/* Product page */
+.product-price {
+  color: #e44853; }
+
+.product-tabs.tabs .nav-tabs .nav-link.active {
+  border-bottom-color: #e44853;
+  color: #e44853; }
+.product-tabs.tabs .nav-tabs .nav-link:hover {
+  border-bottom-color: #e44853;
+  color: #e44853; }
+
+.product-cover .layer .zoom-in {
+  color: #e44853; }
+
+#product-modal .modal-content .modal-body .product-images img:hover {
+  border-color: #e44853; }
+
+.product-images > li.thumb-container > .thumb.selected, .product-images > li.thumb-container > .thumb:hover {
+  border-color: #e44853; }
+
+.products-section-title:before {
+  background: #e44853; }
+
+.more-info-product .title-info-product:before {
+  background: #e44853; }
+
+.products-accordion .card-header a:hover:after {
+  color: #e44853; }
+
+/* Back to top */
+/* Widget */
+.ApColumn .title_block:before {
+  background: #e44853; }
+
+.box-show-more a:hover {
+  background: #e44853;
+  color: #FFFFFF; }
+
+.pro-max .right .nav-tabs .nav-item a.active {
+  color: #e44853; }
+
+.pro-max .left .title_block {
+  background-color: #e44853; }
+.pro-max .left .products_block {
+  border: 2px solid #e44853; }
+
+/* Panel tool */
+.paneltool {
+  background: #e44853; }
+  .paneltool .leo-dynamic-update-side.current-sidebar {
+    color: #e44853; }
+  .paneltool .leo-dynamic-update-side.themetool .leo-dynamic-update-header.current-header {
+    color: #e44853; }
+
+.leo-dynamic-update-layout:hover, .leo-dynamic-update-layout.current-layout-mod {
+  color: #e44853; }
+
+.group-input a.apconfig.active {
+  color: #e44853; }
+
+.enable_fheader.btn_no:before {
+  background: #e44853; }
+
+.leo-fly-cart-icon-wrapper .leo-fly-cart-icon {
+  background: #e44853; }
+.leo-fly-cart-icon-wrapper .leo-fly-cart-total {
+  border: 2px solid #e44853; }
+
+.loca-r .ApColumn.left .block {
+  border: 3px solid #e44853; }
+
+.leo-plist-style-1 .thumbnail-container .product-meta .product-price-and-shipping {
+  color: #e44853; }
+
+/*# sourceMappingURL=skin.css.map */

@@ -1,0 +1,17 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+客戶留言
+
+您收到了一條留言關於訂單 {order_name}.
+
+客戶： {firstname} {lastname} ({email})
+
+客戶留言：
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

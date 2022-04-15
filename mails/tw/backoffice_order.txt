@@ -1,0 +1,11 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+已經以您的名義產生一筆新訂單。
+
+請到{order_link} 完成付款。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

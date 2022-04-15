@@ -1,0 +1,18 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+您的非會員帳戶已經轉換成客戶帳戶
+
+您在 {shop_name} 的非會員帳戶已被轉換成客戶帳戶。
+
+電郵地址: {email}
+
+請點擊以下鏈結以設置您的密碼：
+{url}
+
+您可以在我們的店舖裡使用客戶帳戶： [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

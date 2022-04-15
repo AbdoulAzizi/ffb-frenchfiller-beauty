@@ -1,0 +1,155 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.recom {
+  padding-top: 50px; }
+  .recom .direction {
+    display: none; }
+  .recom .cow-recom {
+    position: absolute;
+    top: 70px;
+    left: 55%; }
+    .rtl .recom .cow-recom {
+      right: 55%;
+      left: auto; }
+    .recom .cow-recom .title_block {
+      font-size: 14px;
+      color: #000;
+      float: left;
+      padding: 0;
+      font-weight: 400;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center; }
+      .rtl .recom .cow-recom .title_block {
+        float: right; }
+      .recom .cow-recom .title_block:after {
+        content: "";
+        border-right: 1px solid #ebebeb;
+        height: 46px;
+        padding-right: 35px;
+        display: inline-block; }
+      @media (max-width: 767px) {
+        .recom .cow-recom .title_block {
+          display: none; } }
+    .recom .cow-recom ul li {
+      float: left;
+      padding: 0 20px;
+      text-align: center;
+      position: relative; }
+      .rtl .recom .cow-recom ul li {
+        float: right; }
+      .recom .cow-recom ul li b {
+        color: #7bbddd;
+        font-size: 36px;
+        font-weight: 700;
+        display: block;
+        padding-bottom: 10px; }
+        @media (max-width: 991px) {
+          .recom .cow-recom ul li b {
+            font-size: 24px; } }
+        @media (max-width: 767px) {
+          .recom .cow-recom ul li b {
+            font-size: 18px; } }
+      .recom .cow-recom ul li:after {
+        content: ".";
+        font-size: 48px;
+        color: #000;
+        position: absolute;
+        right: -3px;
+        top: 0; }
+        .rtl .recom .cow-recom ul li:after {
+          left: -3px;
+          right: auto; }
+      .recom .cow-recom ul li:last-child:after {
+        display: none; }
+    @media (max-width: 1199px) {
+      .recom .cow-recom {
+        left: 45%; }
+        .rtl .recom .cow-recom {
+          right: 45%;
+          left: auto; } }
+    @media (max-width: 991px) {
+      .recom .cow-recom {
+        left: 37%; }
+        .rtl .recom .cow-recom {
+          right: 37%;
+          left: auto; } }
+    @media (max-width: 767px) {
+      .recom .cow-recom {
+        left: 49%; }
+        .rtl .recom .cow-recom {
+          right: 49%;
+          left: auto; } }
+    @media (max-width: 575px) {
+      .recom .cow-recom {
+        left: 39%;
+        top: 47px; }
+        .rtl .recom .cow-recom {
+          right: 39%;
+          left: auto; } }
+    @media (max-width: 480px) {
+      .recom .cow-recom {
+        left: -5%;
+        top: 95px; }
+        .rtl .recom .cow-recom {
+          right: -5%;
+          left: auto; } }
+  .recom .hery {
+    position: relative; }
+  @media (max-width: 480px) {
+    .recom .title_block {
+      padding: 60px 0 80px 0; } }
+  @media (max-width: 575px) {
+    .recom {
+      padding-top: 0; } }
+
+.leo-plist-style-1 .thumbnail-container {
+  padding: 20px 20px 47px 20px; }
+
+@media (max-width: 767px) {
+  .raw-img .ApImage {
+    margin-bottom: 50px; } }
+@media (max-width: 767px) {
+  .raw-img {
+    padding-top: 30px; } }
+@media (max-width: 767px) {
+  .raw-img .ApColumn {
+    padding-bottom: 30px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .leo-plist-style-1 .ajax_block_product.col-sm-4:nth-child(3n + 1) {
+    clear: inherit; } }
+
+/*# sourceMappingURL=profile3565007603.css.map */

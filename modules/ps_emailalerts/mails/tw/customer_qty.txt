@@ -1,0 +1,13 @@
+{shop_url}
+
+您好，
+
+{product} 已經有貨了。
+
+好消息，此商品已經返貨！
+
+單擊以下鏈接訪問商品頁面並訂購： [{product}]({product_link})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

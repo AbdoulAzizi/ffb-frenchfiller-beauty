@@ -1,0 +1,62 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+.header-top {
+    background: #e9dbd2;
+}
+
+.popup-over.userinfo-selector i {
+    color: #fff;
+}
+
+a.ap-btn-wishlist i {
+	color: #fff;
+}
+
+#_desktop_cart i, #_desktop_cart .price {
+	color: #FFF !important;
+}
+
+.menu-no-photos div.product-image, .menu-no-photos div.product-price-and-shipping {
+	display: none;
+}
+
+
+.leo-megamenu .navbar-nav > li a:hover, .leo-megamenu .navbar-nav > li a:focus, .leo-megamenu .navbar-nav > li a:active {
+    color: #626262 ;
+}
+.leo-megamenu .thumbnail-container .product-title a {
+color: #626262 ;
+}
+.leo-megamenu .thumbnail-container .product-title a:hover {
+color: #000 ;
+}
+.raw-img .image_description {
+	width: calc(100% - 70px);
+}
+#footer {
+
+    background: #e9dbd2;
+
+}
+.footer-r::before {
+    content: none;
+  }
+  
+.breadcrumb .box-breadcrumb {
+  width: 100%;
+}
+
+.discount-amount.discount-product {
+	display: none;
+}
+@media (max-width: 575px) {
+.raw-img > div {
+    padding-bottom: 70px;
+}
+}
+.thumbnail-container .product-meta {
+    padding: 35px 0 60px 0;
+  }

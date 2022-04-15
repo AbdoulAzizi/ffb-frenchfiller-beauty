@@ -1,0 +1,15 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+{shop_name}發出的消息
+
+您收到了一則由 {shop_name} 發出關於訂單 {order_name} 的留言。
+
+訊息：
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

@@ -1,0 +1,15 @@
+{shop_url}
+
+您好 {firstname} {lastname},
+
+客户服务-讨论转发
+
+{employee} 想转发这个聊天主题给您。
+
+聊天记录： {messages}
+
+{employee} 加入 {comment}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

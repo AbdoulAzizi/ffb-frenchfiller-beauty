@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>migrationpro</name>
+    <displayName><![CDATA[MigrationPro: PrestaShop To PrestaShop Migration Tool]]></displayName>
+    <version><![CDATA[5.2.3]]></version>
+    <description><![CDATA[Upgrade your PrestaShop to the latest version or Migrate data between PrestaShops]]></description>
+    <author><![CDATA[MigrationPro]]></author>
+    <tab><![CDATA[migration_tools]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

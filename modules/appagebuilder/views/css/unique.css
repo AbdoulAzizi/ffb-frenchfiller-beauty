@@ -1,0 +1,77 @@
+/*************************************************************/
+/************ CSS of module for all theme ********************/
+/************ Do not override this file **********************/
+/*************************************************************/
+
+/**************DONGND update for panel tool BEGIN***********************/
+.paneltool.active .panelbutton > .fa:before
+{
+    content: "\f00d";
+}
+.leo-widget .w-name{
+  display:none;
+}
+/**************DONGND update for panel tool END***********************/
+.breadcrumb-bg{
+    margin-bottom: 40px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+@media (max-width: 1199px){
+    .breadcrumb-bg{
+        min-height: 240px;
+    }
+}
+@media (max-width: 991px){
+    .breadcrumb-bg{
+        min-height: 200px;
+    }
+}
+@media (max-width: 767px){
+    .breadcrumb-bg{
+        min-height: 160px;
+    }
+}
+.breadcrumb-full > .container{
+    margin: auto;
+}
+.breadcrumb-full {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.breadcrumb-bg .breadcrumb {
+    margin: auto;
+    background: none;
+    display: block !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.breadcrumb-bg .breadcrumb:before {
+    background: none;
+    display: none;
+}
+
+body#index .breadcrumb-bg {
+    display: none;
+}
+
+.breadcrumb-bg.brcenter .breadcrumb,
+.breadcrumb-bg.brcenter, .breadcrumb-bg.brcenter .breadcrumb ol {
+    text-align: center;
+}
+
+.breadcrumb-bg.brleft .breadcrumb,
+.breadcrumb-bg.brleft, .breadcrumb-bg.brcenter .breadcrumb ol {
+    text-align: left;
+}
+
+.breadcrumb-bg.brright .breadcrumb,
+.breadcrumb-bg.brright, .breadcrumb-bg.brcenter .breadcrumb ol {
+    text-align: right;
+}

@@ -1,0 +1,15 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+客戶服務 - 討論已轉發
+
+{employee} 想轉發此聊天給你.
+
+對話記錄： {messages}
+
+{employee} 加入 {comment}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)

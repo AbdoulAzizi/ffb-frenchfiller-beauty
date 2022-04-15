@@ -1,0 +1,15 @@
+{shop_url}
+
+{lastname} {firstname} 您好,
+
+訂單編號 {order_name} - 優惠券代碼生成
+
+我們很高興通知您，已使用與您的訂單（參考編號 {order_name} ）有關的名稱生成了信用單。
+
+優惠券代碼: {voucher_num} 金額 {voucher_amount}
+
+要使用此優惠券，只需在結帳時復制/粘貼此代碼。
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)
